@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* remoção da borda do site */
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.conteúdo {
+    width: 100%;
+    /* largura */
+    display: flex;
+    /* me permite habilitar algumas funcionalidades */
+    justify-content: space-between;
+    /* justify: justifica onde ele vai ficar. Space B:pega tudo que está dentroo da caixa e cria um espaço*/
+    align-items: center;
+}
+
+.caixa-texto {
+    width: 600px;
+}
+
+.imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+                                     
+.menu {
+    display: flex;
+    justify-content: center;
+
+}
+
+.botão:hover {
+    cursor: pointer;
+transform: translateX(-25px);
+}
+
+
+
+
+
+
+
+button {
+    background-color: #017143;
+    /*cor do fundo */
+    border: none;
+    /* sem borda */
+    border-radius: 100px;
+    /*arrendondamento da borda */
+    padding: 10px;
+    /* crescimento dos elementos */
+    color: #ffff;
+}
+
+h2 {
+    font-size: 60px;
+    /* tamanho da fonte */
+    font-weight: 500px;
+    /* grossura d fonte */
+}
+
+p {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+span {
+    color: #017143;
+    font-size: 70px;
+    font-weight: 900
+}
+
+.logo {
+    width: 80px;
+    /* largura */
+}
+
+.starbucks {
+    width: 340px;
+    z-index: 2;
+}
+
+.copo-pequeno {
+    width: 60px;
+    cursor: pointer;
+}
+.copo-pequeno:hover {
+    transform: translateY(-25px);
+    transition: 1s;
+}
+
+.circulo {
+    background: #017143;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px); 
+}
